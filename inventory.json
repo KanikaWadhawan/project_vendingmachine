@@ -1,0 +1,76 @@
+{
+  "items": {
+    "A1": {
+      "id": 1,
+      "name": "Lays Chips",
+      "price": 2,
+      "stock": 7,
+      "maxinventory": 10
+    },
+    "A2": {
+      "id": 2,
+      "name": "Nachos",
+      "price": 1.5,
+      "stock": 8,
+      "maxinventory": 10
+    },
+    "A3": {
+      "id": 3,
+      "name": "Banana Chips",
+      "price": 1.2,
+      "stock": 9,
+      "maxinventory": 10
+    },
+    "A4": {
+      "id": 4,
+      "name": "Pringles",
+      "price": 2,
+      "stock": 7,
+      "maxinventory": 10
+    },
+    "A5": {
+      "id": 5,
+      "name": "Durritos",
+      "price": 1.5,
+      "stock": 10,
+      "maxinventory": 10
+    }
+  },
+  "coins": {
+    "toonies": {
+      "value": 2,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "loonies": {
+      "value": 1,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "quaters": {
+      "value": 0.25,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "dimes": {
+      "value": 0.1,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "nicles": {
+      "value": 0.05,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "tens": {
+      "value": 10,
+      "numCoins": 50,
+      "maxCoins": 100
+    },
+    "fives": {
+      "value": 5,
+      "numCoins": 50,
+      "maxCoins": 100
+    }
+  }
+}
