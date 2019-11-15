@@ -16,4 +16,10 @@ describe("getInventory:", () => {
       expect(venderMachine.getInventoryItemByPosition("A1")).toEqual(7);
     });
   });
+
+  describe("When get all the coins", () => {
+    it("should return all coins in the inventory", () => {
+      expect(venderMachine.getAllInventoryCoins()).toEqual(inventory.coins);
+    });
+  });
 });
