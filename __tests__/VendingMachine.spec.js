@@ -10,4 +10,10 @@ describe("getInventory:", () => {
       expect(venderMachine.getAllInventoryProducts()).toEqual(inventory.items);
     });
   });
+
+  describe('When get inventory product by position="A1"', () => {
+    it("should return stock = 7", () => {
+      expect(venderMachine.getInventoryItemByPosition("A1")).toEqual(7);
+    });
+  });
 });
