@@ -48,4 +48,24 @@ describe("getInventory:", () => {
       expect(venderMachine.setCoinsInventory("toonies", 25)).toEqual(75);
     });
   });
+
+  describe('When set products inventory position= "toonies",number = 26', () => {
+    it("should throw Error", () => {
+      expect(() => venderMachine.setCoinsInventory("toonies", 26)).toThrow(
+        "Over max spot available"
+      );
+    });
+  });
+  describe('When set new product to position= "A5", name=Jalepeno Durritos, price=3, stock=6, maxinventory=10', () => {
+    it("should return new product detail by position", () => {
+      expect(
+        venderMachine.setNewItemToPosition("A5", "Jalepeno Durritos", 3, 6, 10)
+      ).toEqual({
+        name: "Jalepeno Durritos",
+        price: 3,
+        stock: 6,
+        maxinventory: 10
+      });
+    });
+  });
 });
