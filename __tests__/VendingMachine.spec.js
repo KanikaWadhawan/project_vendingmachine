@@ -59,7 +59,7 @@ describe("Vending Machine", () => {
     describe('When set products inventory position= "toonies",number = 26', () => {
       it("should throw Error", () => {
         expect(() => venderMachine.setCoinsInventory("toonies", 26)).toThrow(
-          "Over max spot available"
+          "Spots Over max limit , Sorry no spot available"
         );
       });
     });

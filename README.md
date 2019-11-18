@@ -17,6 +17,8 @@ Vending machine and its tests, coded in one Javascript class with no interface, 
 
 ## Screenshot
 
+![Tests Snapshot](_snapshot/tests.png)
+
 ## Installation
 
 Download the repo, then in its folder run:
