@@ -35,9 +35,9 @@ npm run test
 
 ```
 
-Optionally run one particular test suite using the name a file in the tests folder:
+Optionally run one particular test suite using the name a file in the tests file:
 
 ```
-jest
+jest -t "name of the test"
 
 ```
